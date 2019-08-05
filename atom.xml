@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WXL++’BLOG</title>
+  
+  <subtitle>wxlpp&#39;blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wxlpp.github.io/"/>
+  <updated>2019-08-05T09:27:47.024Z</updated>
+  <id>http://wxlpp.github.io/</id>
+  
+  <author>
+    <name>wxlpp</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开始使用Hexo</title>
+    <link href="http://wxlpp.github.io/2019/08/05/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo/"/>
+    <id>http://wxlpp.github.io/2019/08/05/开始使用Hexo/</id>
+    <published>2019-08-05T08:18:16.000Z</published>
+    <updated>2019-08-05T09:27:47.024Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;此文为本人安装 Hexo 的记录，并非指南。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;安装流程&quot;&gt;安装流程&lt;/h1&gt;
+&lt;h2 id=&quot;安装hexo&quot;&gt;安装Hexo&lt;/h2&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo折腾记" scheme="http://wxlpp.github.io/categories/Hexo%E6%8A%98%E8%85%BE%E8%AE%B0/"/>
+    
+    
+      <category term="Hexo" scheme="http://wxlpp.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>内置标签</title>
+    <link href="http://wxlpp.github.io/2019/08/05/%E5%86%85%E7%BD%AE%E6%A0%87%E7%AD%BE/"/>
+    <id>http://wxlpp.github.io/2019/08/05/内置标签/</id>
+    <published>2019-08-05T05:29:32.000Z</published>
+    <updated>2019-08-05T12:11:52.110Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;引用块&quot;&gt;引用块&lt;/h1&gt;
+&lt;p&gt;在文章中插入引言，可包含作者、来源和标题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;别名：&lt;/strong&gt; quote &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% blockquote [author[, source]] [link] [source_link_title] %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;content&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endblockquote %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;样例&quot;&gt;样例&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;没有提供参数，则只输出普通的 blockquote&lt;/strong&gt; &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% blockquote %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endblockquote %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Hexo折腾记" scheme="http://wxlpp.github.io/categories/Hexo%E6%8A%98%E8%85%BE%E8%AE%B0/"/>
+    
+    
+      <category term="Hexo" scheme="http://wxlpp.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
