@@ -57,16 +57,19 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="分类">
-<meta property="og:url" content="http://wxlpp.github.io/categories/index.html">
+  <meta name="description" content="由HttpTool这个类可以看出您对 Swift不是很了解 下面是示例  123456789101112131415161718192021import Foundationclass HttpTool &amp;#123;    class func request(url: String,_  complection: @escaping (Result&amp;lt;Data,Error&amp;gt;) -&amp;g">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WXL++’BLOG">
+<meta property="og:url" content="http://wxlpp.github.io/docs/15653242903087.html">
 <meta property="og:site_name" content="WXL++’BLOG">
+<meta property="og:description" content="由HttpTool这个类可以看出您对 Swift不是很了解 下面是示例  123456789101112131415161718192021import Foundationclass HttpTool &amp;#123;    class func request(url: String,_  complection: @escaping (Result&amp;lt;Data,Error&amp;gt;) -&amp;g">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-05T13:50:37.903Z">
+<meta property="og:updated_time" content="2019-08-09T04:31:40.091Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="分类">
+<meta name="twitter:title" content="WXL++’BLOG">
+<meta name="twitter:description" content="由HttpTool这个类可以看出您对 Swift不是很了解 下面是示例  123456789101112131415161718192021import Foundationclass HttpTool &amp;#123;    class func request(url: String,_  complection: @escaping (Result&amp;lt;Data,Error&amp;gt;) -&amp;g">
   <link rel="alternate" href="/atom.xml" title="WXL++’BLOG" type="application/atom+xml">
-  <link rel="canonical" href="http://wxlpp.github.io/categories/">
+  <link rel="canonical" href="http://wxlpp.github.io/docs/15653242903087">
 
 
 <script id="page-configurations">
@@ -80,7 +83,7 @@
   };
 </script>
 
-  <title>分类 | WXL++’BLOG</title>
+  <title> | WXL++’BLOG</title>
   
 
 
@@ -240,7 +243,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h2 class="post-title" itemprop="name headline">分类
+<h2 class="post-title" itemprop="name headline">
 
 </h2>
 
@@ -256,24 +259,17 @@
       
       <div class="post-body">
         
-          <div class="category-all-page">
-            <div class="category-all-title">
-              
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-              目前共计 2 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo折腾记/">Hexo折腾记</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/学习/">学习</a><span class="category-list-count">1</span></li></ul>
-            </div>
-          </div>
+          <ol type="1">
+<li>由HttpTool这个类可以看出您对 <code>Swift</code>不是很了解 下面是示例</li>
+</ol>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HttpTool</span> </span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">class</span> <span class="title">func</span> <span class="title">request</span>(<span class="title">url</span>: <span class="title">String</span>,<span class="title">_</span>  <span class="title">complection</span>: @<span class="title">escaping</span> (<span class="title">Result</span>&lt;<span class="title">Data</span>,<span class="title">Error</span>&gt;) -&gt; <span class="title">Void</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">guard</span> <span class="keyword">let</span> url = <span class="type">URL</span>(string: url) <span class="keyword">else</span> &#123;</span><br><span class="line">            </span><br><span class="line">            complection(.failure(<span class="type">URLError</span>(.badURL)))</span><br><span class="line">            <span class="keyword">return</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">URLSession</span>.shared.dataTask(with: url) &#123; (data, response, error) <span class="keyword">in</span></span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">let</span> error = error &#123;</span><br><span class="line">                complection(.failure(error))</span><br><span class="line">                <span class="keyword">return</span></span><br><span class="line">            &#125;</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">let</span> data = data &#123;</span><br><span class="line">                complection(.success(data))</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol type="1">
+<li>搜索列表与我所提供的效果图差距较大。只是单纯的全局 tableview.reload并不是比较现代的数据流刷新方式。</li>
+<li>然后完全没有考虑到性能问题，各个接口都没有使用缓存。</li>
+<li>计算擅长语言的算法复杂度也不是最优。</li>
+</ol>
+<p>综上我们感到抱歉，您的技术栈可能并不适合我们这个岗位。</p>
+
         
       </div>
       
@@ -290,6 +286,16 @@
 
           </div>
           
+    
+    
+  <div class="comments" id="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+  
+
 
         </div>
           
@@ -572,6 +578,45 @@ if ($('body').find('div.pdf').length) {
   }
   // defer loading until the whole page loading is completed
   window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "http://wxlpp.github.io/docs/15653242903087.html";
+    this.page.identifier = "docs/15653242903087.html";
+    this.page.title = '';};
+  function loadComments() {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://wxlpp.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  }
+    $(function() {
+      var offsetTop = $('#comments').offset().top - $(window).height();
+      if (offsetTop <= 0) {
+        // load directly when there's no a scrollbar
+        window.addEventListener('load', loadComments, false);
+      } else {
+        $(window).on('scroll.disqus_scroll', function() {
+          // offsetTop may changes because of manually resizing browser window or lazy loading images.
+          var offsetTop = $('#comments').offset().top - $(window).height();
+          var scrollTop = $(window).scrollTop();
+
+          // pre-load comments a bit? (margin or anything else)
+          if (offsetTop - scrollTop < 60) {
+            $(window).off('.disqus_scroll');
+            loadComments();
+          }
+        });
+      }
+    });
+  
 </script>
 
 </body>

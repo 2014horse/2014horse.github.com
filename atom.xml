@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wxlpp.github.io/"/>
-  <updated>2019-08-05T13:48:05.286Z</updated>
+  <updated>2019-08-10T10:51:07.674Z</updated>
   <id>http://wxlpp.github.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二十八岁</title>
+    <link href="http://wxlpp.github.io/2019/08/10/er-shi-ba-sui/"/>
+    <id>http://wxlpp.github.io/2019/08/10/er-shi-ba-sui/</id>
+    <published>2019-08-10T10:22:31.000Z</published>
+    <updated>2019-08-10T10:51:07.674Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p align=&quot;center&quot;&gt;
+还租着房东的房子&lt;br&gt; 还看着没深度的书&lt;br&gt; 还没有爱我的姑娘&lt;br&gt;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>RSS基础</title>
+    <link href="http://wxlpp.github.io/2019/08/05/rss-ji-chu/"/>
+    <id>http://wxlpp.github.io/2019/08/05/rss-ji-chu/</id>
+    <published>2019-08-05T14:45:18.000Z</published>
+    <updated>2019-08-05T16:24:56.968Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;什么是-rss&quot;&gt;什么是 RSS？&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;RSS 指 Really Simple Syndication（真正简易联合）&lt;/li&gt;
+&lt;li&gt;RSS 使您有能力聚合（syndicate）网站的内容&lt;/li&gt;
+&lt;li&gt;RSS
+        
+      
+    
+    </summary>
+    
+      <category term="学习" scheme="http://wxlpp.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="RSS" scheme="http://wxlpp.github.io/tags/RSS/"/>
+    
+  </entry>
   
   <entry>
     <title>内置标签</title>
