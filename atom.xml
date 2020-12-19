@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wxlpp.github.io/"/>
-  <updated>2019-12-09T17:07:48.052Z</updated>
+  <updated>2019-08-10T10:51:07.674Z</updated>
   <id>http://wxlpp.github.io/</id>
   
   <author>
@@ -15,33 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Swift-unbuntu</title>
-    <link href="http://wxlpp.github.io/2019/12/10/swift-unbuntu/"/>
-    <id>http://wxlpp.github.io/2019/12/10/swift-unbuntu/</id>
-    <published>2019-12-09T16:53:58.000Z</published>
-    <updated>2019-12-09T17:07:48.052Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script src=&quot;//gist.github.com/5f7f57365adb0aad3aa0a607a779c82d.js?file=ubuntu.sh&quot;&gt;&lt;/script&gt;
-&lt;script
-        
-      
-    
-    </summary>
-    
-      <category term="vapor" scheme="http://wxlpp.github.io/categories/vapor/"/>
-    
-    
-      <category term="vapor" scheme="http://wxlpp.github.io/tags/vapor/"/>
-    
-  </entry>
   
   <entry>
     <title>二十八岁</title>
@@ -57,97 +30,12 @@
         
         
           &lt;p align=&quot;center&quot;&gt;
-还租着房东的房子&lt;br&gt; 还看着没深度的书&lt;br&gt; 还没有爱我的姑娘&lt;br&gt;
+还租着房东的房子&lt;br/&gt; 还看着没深度的书&lt;br/&gt; 还没有爱我的姑娘&lt;br/&gt;
         
       
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>RSS基础</title>
-    <link href="http://wxlpp.github.io/2019/08/05/rss-ji-chu/"/>
-    <id>http://wxlpp.github.io/2019/08/05/rss-ji-chu/</id>
-    <published>2019-08-05T14:45:18.000Z</published>
-    <updated>2019-08-05T16:24:56.968Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;什么是-rss&quot;&gt;什么是 RSS？&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;RSS 指 Really Simple Syndication（真正简易联合）&lt;/li&gt;
-&lt;li&gt;RSS 使您有能力聚合（syndicate）网站的内容&lt;/li&gt;
-&lt;li&gt;RSS
-        
-      
-    
-    </summary>
-    
-      <category term="学习" scheme="http://wxlpp.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="RSS" scheme="http://wxlpp.github.io/tags/RSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>内置标签</title>
-    <link href="http://wxlpp.github.io/2019/08/05/nei-zhi-biao-qian/"/>
-    <id>http://wxlpp.github.io/2019/08/05/nei-zhi-biao-qian/</id>
-    <published>2019-08-05T08:18:16.000Z</published>
-    <updated>2019-08-05T13:48:05.286Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;引用块&quot;&gt;引用块&lt;/h1&gt;
-&lt;p&gt;在文章中插入引言，可包含作者、来源和标题。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;别名：&lt;/strong&gt; quote &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% blockquote [author[, source]] [link] [source_link_title] %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;content&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endblockquote %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h2 id=&quot;样例&quot;&gt;样例&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;没有提供参数，则只输出普通的 blockquote&lt;/strong&gt; &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% blockquote %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% endblockquote %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="Hexo折腾记" scheme="http://wxlpp.github.io/categories/Hexo%E6%8A%98%E8%85%BE%E8%AE%B0/"/>
-    
-    
-      <category term="Hexo" scheme="http://wxlpp.github.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开始使用Hexo</title>
-    <link href="http://wxlpp.github.io/2019/08/05/kai-shi-shi-yong-hexo/"/>
-    <id>http://wxlpp.github.io/2019/08/05/kai-shi-shi-yong-hexo/</id>
-    <published>2019-08-05T05:29:32.000Z</published>
-    <updated>2019-08-05T13:48:01.266Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;此文为本人安装 Hexo 的记录，并非指南。&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&quot;安装流程&quot;&gt;安装流程&lt;/h1&gt;
-&lt;h2 id=&quot;安装hexo&quot;&gt;安装Hexo&lt;/h2&gt;
-&lt;figure class=&quot;highlight
-        
-      
-    
-    </summary>
-    
-      <category term="Hexo折腾记" scheme="http://wxlpp.github.io/categories/Hexo%E6%8A%98%E8%85%BE%E8%AE%B0/"/>
-    
-    
-      <category term="Hexo" scheme="http://wxlpp.github.io/tags/Hexo/"/>
     
   </entry>
   
